@@ -1,6 +1,86 @@
 .feedback{
-    &__block{
-        background: url(../images/feedback/bg.png) center/cover;
+    .title{
+        margin-top: 24px;
+    }
+    .subtitle{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 133% */
 
+        max-width: 400px;
+        color: #2C2D2E;
+    }
+    &__bg{
+        box-shadow: 1px 1px 35px #484a4d2a;
+        padding: 24px 0 60px 20px;
+        background: url(../images/feedback/form_banner\ 1.png);
+        margin: 40px 0 40px;
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            &__input{
+                margin: 0 12px 12px -5px;
+                padding-left: 10px;
+                height: 40px;
+                width: 178px;
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 0px 4px 4px 0px; 
+            }
+            &__img{
+                &_name{
+                    border: 1px solid rgba(0, 16, 61, 0.12);
+                    border-radius: 4px 0px 0px 4px;
+                    border-right: none;
+                    padding: 11px 10px 12px;
+                    margin-bottom: 2px;
+                }
+                &_phone{
+                    border: 1px solid rgba(0, 16, 61, 0.12);
+                    border-radius: 4px 0px 0px 4px;
+                    border-right: none;
+                    padding: 11px;
+                    margin-bottom: 2px;
+                }
+            }
+            &__texta{
+                max-width: 446px;
+                height: 80px;
+
+                /* main  /  color-bg */
+
+                background: #FFFFFF;
+                /* borders  /  color-border */
+
+                border: 1px solid rgba(0, 16, 61, 0.12);
+                border-radius: 4px;
+                margin-bottom: 12px;
+                padding: 10px;
+            }
+            &__btn{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                /* identical to box height, or 133% */
+
+                text-align: center;
+
+                /* text  /  color-text-contrast */
+
+                color: #EF7C00;
+                border: 1px solid #EF7C00;
+                border-radius: 4px;
+                padding: 10px 20px;
+                width: 225px;
+                background: #fff;
+                &:hover{
+                    color: #FFFFFF;
+                    background: #EF7C00;
+                }
+            }
+        }
     }
 }

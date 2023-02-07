@@ -1,0 +1,38 @@
+.laminate-tubes{
+    padding: 56px 0 60px;
+    &__description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 133% */
+        color: #2c2d2ec4;
+        padding-right: 150px;
+        &_short{
+            padding: 0 140px 0 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            /* or 133% */
+            color: #2c2d2ec4;
+        }
+    }
+    &__subtitle{
+        padding-right: 120px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        color: #2C2D2E;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        position: absolute;
+        margin-top: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,81 @@
+.contacts{
+    padding: 40px 0 44px;
+    background: #f0f1f3;
+    .title{
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .col-3{
+        padding: 20px;
+        border-left: 1px solid #BFC1C7;
+        &:first-child{
+            border: none;
+        }
+    }
+    &__place{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        /* color-text */
+
+        color: #2C2D2E;
+    }
+    &__lbl{
+        display: block;
+        margin: 22px 0 8px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        /* identical to box height, or 100% */
+
+
+        /* color-text-secondary */
+
+        color: #919399;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__phone{
+        list-style-type: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+
+
+        color: #2C2D2E;
+    }
+    &__mail{
+        list-style-type: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+
+
+        color: #2C2D2E;
+    }
+    &__location{
+        list-style-type: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+
+
+        color: #2C2D2E;
+    }
+}

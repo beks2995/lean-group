@@ -1,30 +1,31 @@
 @mixin sliderBtn($bgImg){
     font-size: 0;
-    cursor: pointer;
-    background: url($bgImg);
-    top: 50%;
-    transform: translateY(-50%);
-    width: 27px;
-    height: 50px;
-    position: absolute;
+     background: url($bgImg);
+     cursor: pointer;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 27px;
+     height: 51px;
+     position: absolute;
 }
 @mixin sliderBtns{
-    .custom-prev{
-        @include sliderBtn('../images/certificats/left.png');
-        left: -60px;
-    }
     .custom-next{
-        @include sliderBtn('../images/certificats/right.png');
+        @include sliderBtn('../images/certifitates/next.png');
         right: -60px;
+    }
+    .custom-prev{ 
+        @include sliderBtn('../images/certifitates/prev.png');
+        left: -60px;
+       
     }
 }
 @mixin sliderNav{
-    .owl-theme .owl-nav {
+    .owl-theme .owl-nav{
         margin-top: 0;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         width: 100%;
-        @include sliderBtns;
+        @include sliderBtns;  
     }
 }

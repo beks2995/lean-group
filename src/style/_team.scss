@@ -1,0 +1,92 @@
+@import './variables';
+.team{
+    padding: 60px 0 40px;
+    .title{
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    @include sliderNav;
+    .owl-item{
+        &__img{
+            border-radius: 50%;
+            width: 203px;
+            height: 203px;
+            margin-bottom: 12px;
+        }
+        .name{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+
+            /* color-text */
+
+            color: #2C2D2E;
+        }
+        .description{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            /* or 100% */
+
+            text-align: center;
+
+            /* color-text-secondary */
+
+            color: #919399;
+        }
+        .tel{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+
+            /* color-text */
+
+            color: #2C2D2E;
+        }
+        .email{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+
+            /* color-text */
+
+            color: #2C2D2E;
+        }
+    }
+    &__link-wrapper{
+        text-align: center;
+        margin-top: 52px;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+
+        /* color-primary */
+
+        color: #EF7C00;
+        border: 1px solid #EF7C00;
+        border-radius: 4px; 
+        padding: 10px 20px;
+        display: inline block;
+        &:hover{
+            color: #fff;
+            background: #EF7C00;
+        }
+    }
+}

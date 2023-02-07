@@ -1,0 +1,188 @@
+.our-products{
+    padding: 40px 0 30px;
+    .title{
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .row{
+        &__bg{
+            margin-bottom: 12px;
+            background: rgba(0, 16, 61, 0.06);
+            border-radius: 4px;
+            padding: 14px 0 17px 24px;
+        }
+        &__title{
+            padding-left: 0px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            /* identical to box height, or 100% */
+    
+            display: flex;
+            align-items: center;
+    
+            /* color-text-secondary */
+    
+            color: #919399;
+            margin-bottom: 8px;
+            .col{
+                padding-left: 0;
+            }
+        }
+        &__size{
+            border-bottom: 1px solid rgba(0, 16, 61, 0.12);
+            .col{
+                padding-left: 0px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                /* identical to box height, or 133% */
+
+
+                /* color-text */
+
+                color: #2C2D2E;
+            }
+        }
+        .col{
+            &__diametr{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                /* identical to box height, or 133% */
+
+
+                /* color-text-secondary */
+
+                color: #919399;
+                margin-top: 8px;
+            }
+            &__figure{
+                margin-top: 22px;
+                &_caption{
+                    margin-top: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 13px;
+                    padding-left: 10px;
+
+                    /* color-text-secondary */
+
+                    color: #919399;
+
+                }
+            }
+        }
+        &__bt{
+            margin-top: 28px;
+            border-top: 1px solid rgba(0, 16, 61, 0.12);
+            border-bottom: 1px solid rgba(0, 16, 61, 0.12);
+            padding: 15px 15px;
+        }
+    }
+    .thread{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+
+        /* color-text-secondary */
+
+        color: #919399;
+        &__title{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+
+            /* color-text */
+
+            color: #2C2D2E;
+            span{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+
+
+                /* color-primary */
+
+                color: #EF7C00;
+            }
+        }
+        &__description{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+
+            /* color-text */
+
+            color: #2C2D2E;
+        }
+    }
+    .m11{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        
+        /* color-text */
+        
+        color: #2C2D2E;
+        margin-top: 28px;
+    }
+    &__name{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height, or 117% */
+
+
+        /* color-primary */
+
+        color: #EF7C00;
+        span{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+
+            /* color-text-secondary */
+
+            color: #919399;
+        }
+    }
+    .green{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+
+        /* color-success */
+
+        color: #0DC268;
+        margin: 20px 0 8px;
+    }
+    .oreng{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+
+        /* color-primary */
+
+        color: #EF7C00;
+    }
+    
+}
